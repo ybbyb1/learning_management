@@ -4,6 +4,65 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;glass=0;strokeColor=#CC0000;" value="" vertex="1">
+          <mxGeometry height="320" width="150" x="430" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="学習者" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="閲覧者" vertex="1">
+          <mxGeometry height="60" width="30" x="750" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="X" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ノート（紙、ペン）" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-6" edge="1" parent="1" source="8TT40OBcVOVx4ahSVXQZ-2" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8TT40OBcVOVx4ahSVXQZ-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="600" as="sourcePoint" />
+            <mxPoint x="520" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-7" connectable="0" parent="8TT40OBcVOVx4ahSVXQZ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC0000;fontSize=16;" value="学習項目・目標・内容・期限を記載" vertex="1">
+          <mxGeometry relative="1" x="0.3254" y="2" as="geometry">
+            <mxPoint x="-78" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-8" edge="1" parent="1" source="8TT40OBcVOVx4ahSVXQZ-2" style="endArrow=none;html=1;rounded=0;entryX=-0.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="8TT40OBcVOVx4ahSVXQZ-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-9" edge="1" parent="1" source="8TT40OBcVOVx4ahSVXQZ-5" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="8TT40OBcVOVx4ahSVXQZ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="440" as="sourcePoint" />
+            <mxPoint x="490" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-10" connectable="0" parent="8TT40OBcVOVx4ahSVXQZ-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#CC0000;" value="&lt;font style=&quot;&quot;&gt;閲覧する&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5657" y="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-11" connectable="0" parent="8TT40OBcVOVx4ahSVXQZ-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#CC0000;" value="閲覧する" vertex="1">
+          <mxGeometry relative="1" x="-0.5657" y="1" as="geometry">
+            <mxPoint x="7" y="195" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-12" connectable="0" parent="8TT40OBcVOVx4ahSVXQZ-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#CC0000;" value="投稿する" vertex="1">
+          <mxGeometry relative="1" x="-0.5657" y="1" as="geometry">
+            <mxPoint x="-213" y="195" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TT40OBcVOVx4ahSVXQZ-13" edge="1" parent="1" source="8TT40OBcVOVx4ahSVXQZ-4" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="420" as="sourcePoint" />
+            <mxPoint x="760" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
